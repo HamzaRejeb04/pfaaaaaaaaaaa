@@ -3,7 +3,8 @@ from django.contrib.auth.models import User
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes.fields import GenericForeignKey
 from .fields import OrderField
-from django.template.loader import render_to_string
+from django.template.loader import render_to_string 
+
 """
 we have a Subject the contain courses and every course contain modules
     - subject has:
